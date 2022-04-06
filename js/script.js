@@ -62,7 +62,7 @@ window.addEventListener('DOMContentLoaded', () => {
                   'img/prodact/prodact.png'],
             title: 'Маленький ручеек Даль журчит по всей стране и обеспечивает',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit error dolorum tenetur ipsam consequuntur, ratione quo? Optio culpa, ullam repudiandae quia a totam velit ipsam. Mollitia labore ab explicabo! Sed sapiente doloribus officia odio nobis at illo, eligendi iste maxime quibusdam, vel delectus ex numquam doloremque. Ullam ab dolore amet?',
-            price: 12.56,
+            price: 356653.00,
             currency: '&#8381',
             cart: false
 
@@ -216,7 +216,7 @@ window.addEventListener('DOMContentLoaded', () => {
                     <a data-productid='${product.id}' href="#" class="link product__link">${product.title}</a>
                 </h5>
                 <div class="product__footer">
-                    <span class="product__price">${product.price} <span class="product__currency">${product.currency}</span></span>
+                    <span class="product__price">${product.price.toFixed(2)} <span class="product__currency">${product.currency}</span></span>
                     <span data-productid='${product.id}' class="product__cart">
                     <!-- <img data-productid='${product.id}' src="icons/cart.svg" alt="Добавить в козину"> -->
                     </span>
@@ -266,7 +266,7 @@ window.addEventListener('DOMContentLoaded', () => {
         controlsTpl.innerHTML = `
             <h5 class="title title_h5 product-card__title">${product.title}</h5>
             <div class="product-card__product-id">Код: <span>${product.id}</span></div>
-            <div class="product-card__price">${product.price}</div>
+            <div class="product-card__price">${product.price.toFixed(2)}</div>
             <a data-productid='${product.id}' href="#" class="link btn btn__product-card">Купить</a>
         `;
 
@@ -308,6 +308,8 @@ window.addEventListener('DOMContentLoaded', () => {
     function productCardClose() {
         productCard.classList.remove('product-card_active');
         document.body.style.overflow = 'visible';
+
+
     }
 
     cardClose.addEventListener('click', () => {
@@ -400,11 +402,13 @@ window.addEventListener('DOMContentLoaded', () => {
     shoppingCartBtn.addEventListener('click', e => {
         e.preventDefault();
         cartClose();
+        shoppingCartClose();
     });
 
     shoppingCartBtnBanner.addEventListener('click', e => {
         e.preventDefault();
         cartClose();
+        shoppingCartClose();
     });
 
 
@@ -469,7 +473,7 @@ window.addEventListener('DOMContentLoaded', () => {
         tpl.setAttribute('data-product', `${product.id}`);
         tpl.innerHTML = `
             <img class="shopping-cart__img" src="${product.img[0]}" alt="Фотография товара">
-            <div class="shopping-cart__title">${product.title}</div>
+            <div data-title="${product.id}" class="shopping-cart__title">${product.title}</div>
             <div class="shopping-cart__quantity">
                 <div class="shopping-cart__quantity-wrapper">
                     <span data-minus="${product.id}" class="shopping-cart__minus"></span>
@@ -477,8 +481,8 @@ window.addEventListener('DOMContentLoaded', () => {
                     <span data-plus="${product.id}" class="shopping-cart__plus"></span>
                 </div>
             </div>
-            <div class="shopping-cart__price">${product.price}</div>
-            <div data-sum="${product.id}" class="shopping-cart__sum">${product.price * product.quantity}</div>
+            <div class="shopping-cart__price">${product.price.toFixed(2)}</div>
+            <div data-sum="${product.id}" class="shopping-cart__sum">${(product.price * product.quantity).toFixed(2)}</div>
             <div data-del="${product.id}" class="shopping-cart__del"></div>
         `;
         shoppingCartList.append(tpl);
@@ -550,6 +554,28 @@ window.addEventListener('DOMContentLoaded', () => {
 
         }
 
+    });
+
+    // Открыть карточку товара из корзины
+
+    shoppingCart.addEventListener('click', e => {
+        const event = e.target;
+
+        if (event.classList.contains('shopping-cart__title')) {
+            const preview = document.querySelector('.product-card__preview');
+            const controls = document.querySelector('.product-card__controls');
+            const descr = document.querySelector('.product-card__descr');
+            const productId = event.dataset.title;
+            const product = productSearch(productId, productList);
+
+            if (preview && controls && descr) {
+                preview.remove();
+                controls.remove();
+                descr.remove();
+            }
+            cartClose();
+            productCardOpen(product);
+        }
     });
 
     // Счетчик товаров в корзине
