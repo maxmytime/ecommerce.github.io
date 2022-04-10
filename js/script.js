@@ -60,9 +60,9 @@ window.addEventListener('DOMContentLoaded', () => {
             img: ['img/prodact/prodact.png',
                   'img/prodact/prodact.png',
                   'img/prodact/prodact.png'],
-            title: 'Маленький ручеек Даль журчит по всей стране и обеспечивает',
+            title: '4" Смартфон DEXP A440 8 ГБ розовый [4x(1.3 ГГц), 1 Гб, 2 SIM, TN, 800x480, камера 2 Мп, 3G, GPS, FM, 1440 мА*ч]',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit error dolorum tenetur ipsam consequuntur, ratione quo? Optio culpa, ullam repudiandae quia a totam velit ipsam. Mollitia labore ab explicabo! Sed sapiente doloribus officia odio nobis at illo, eligendi iste maxime quibusdam, vel delectus ex numquam doloremque. Ullam ab dolore amet?',
-            price: 356653.00,
+            price: 3199,
             currency: '&#8381',
             cart: false
 
@@ -72,9 +72,9 @@ window.addEventListener('DOMContentLoaded', () => {
             img: ['img/prodact/prodact.png',
                   'img/prodact/prodact.png',
                   'img/prodact/prodact.png'],
-            title: 'Маленький ручеек Даль журчит по всей стране и обеспечивает',
+            title: '5" Смартфон INOI easyPhone 8 ГБ черный [4x(1.3 ГГц), 1 Гб, 2 SIM, IPS, 960x480, камера 5 Мп, 3G, GPS, 2500 мА*ч]',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit error dolorum tenetur ipsam consequuntur, ratione quo? Optio culpa, ullam repudiandae quia a totam velit ipsam. Mollitia labore ab explicabo! Sed sapiente doloribus officia odio nobis at illo, eligendi iste maxime quibusdam, vel delectus ex numquam doloremque. Ullam ab dolore amet?',
-            price: 12.56,
+            price: 3299,
             currency: '&#8381',
             cart: false
 
@@ -84,9 +84,9 @@ window.addEventListener('DOMContentLoaded', () => {
             img: ['img/prodact/prodact.png',
                   'img/prodact/prodact.png',
                   'img/prodact/prodact.png'],
-            title: 'Маленький ручеек Даль журчит по всей стране и обеспечивает',
+            title: '5" Смартфон DEXP G450 One 8 ГБ красный [4x(1.3 ГГц), 1 Гб, 2 SIM, TN, 854x480, камера 2 Мп, 3G, GPS, FM, 2000 мА*ч]',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit error dolorum tenetur ipsam consequuntur, ratione quo? Optio culpa, ullam repudiandae quia a totam velit ipsam. Mollitia labore ab explicabo! Sed sapiente doloribus officia odio nobis at illo, eligendi iste maxime quibusdam, vel delectus ex numquam doloremque. Ullam ab dolore amet?',
-            price: 12.56,
+            price: 3499,
             currency: '&#8381',
             cart: false
 
@@ -96,9 +96,9 @@ window.addEventListener('DOMContentLoaded', () => {
             img: ['img/prodact/prodact.png',
                   'img/prodact/prodact.png',
                   'img/prodact/prodact.png'],
-            title: 'Маленький ручеек Даль журчит по всей стране и обеспечивает',
+            title: '5" Смартфон DEXP G450 One 8 ГБ синий [4x(1.3 ГГц), 1 Гб, 2 SIM, TN, 854x480, камера 2 Мп, 3G, GPS, FM, 2000 мА*ч]',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit error dolorum tenetur ipsam consequuntur, ratione quo? Optio culpa, ullam repudiandae quia a totam velit ipsam. Mollitia labore ab explicabo! Sed sapiente doloribus officia odio nobis at illo, eligendi iste maxime quibusdam, vel delectus ex numquam doloremque. Ullam ab dolore amet?',
-            price: 12.56,
+            price: 3599,
             currency: '&#8381',
             cart: false
 
@@ -110,7 +110,7 @@ window.addEventListener('DOMContentLoaded', () => {
                   'img/prodact/prodact.png'],
             title: 'Маленький ручеек Даль журчит по всей стране и обеспечивает',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit error dolorum tenetur ipsam consequuntur, ratione quo? Optio culpa, ullam repudiandae quia a totam velit ipsam. Mollitia labore ab explicabo! Sed sapiente doloribus officia odio nobis at illo, eligendi iste maxime quibusdam, vel delectus ex numquam doloremque. Ullam ab dolore amet?',
-            price: 12.56,
+            price: 100000,
             currency: '&#8381',
             cart: false
 
@@ -122,7 +122,7 @@ window.addEventListener('DOMContentLoaded', () => {
                   'img/prodact/prodact.png'],
             title: 'Маленький ручеек Даль журчит по всей стране и обеспечивает',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit error dolorum tenetur ipsam consequuntur, ratione quo? Optio culpa, ullam repudiandae quia a totam velit ipsam. Mollitia labore ab explicabo! Sed sapiente doloribus officia odio nobis at illo, eligendi iste maxime quibusdam, vel delectus ex numquam doloremque. Ullam ab dolore amet?',
-            price: 12.56,
+            price: 200000,
             currency: '&#8381',
             cart: false
 
@@ -134,7 +134,7 @@ window.addEventListener('DOMContentLoaded', () => {
                   'img/prodact/prodact.png'],
             title: 'Маленький ручеек Даль журчит по всей стране и обеспечивает',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit error dolorum tenetur ipsam consequuntur, ratione quo? Optio culpa, ullam repudiandae quia a totam velit ipsam. Mollitia labore ab explicabo! Sed sapiente doloribus officia odio nobis at illo, eligendi iste maxime quibusdam, vel delectus ex numquam doloremque. Ullam ab dolore amet?',
-            price: 12.56,
+            price: 99999,
             currency: '&#8381',
             cart: false
 
@@ -146,7 +146,7 @@ window.addEventListener('DOMContentLoaded', () => {
                   'img/prodact/prodact.png'],
             title: 'Маленький ручеек Даль журчит по всей стране и обеспечивает',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit error dolorum tenetur ipsam consequuntur, ratione quo? Optio culpa, ullam repudiandae quia a totam velit ipsam. Mollitia labore ab explicabo! Sed sapiente doloribus officia odio nobis at illo, eligendi iste maxime quibusdam, vel delectus ex numquam doloremque. Ullam ab dolore amet?',
-            price: 12.56,
+            price: 9999,
             currency: '&#8381',
             cart: false
 
@@ -158,7 +158,7 @@ window.addEventListener('DOMContentLoaded', () => {
                   'img/prodact/prodact.png'],
             title: 'Маленький ручеек Даль журчит по всей стране и обеспечивает',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit error dolorum tenetur ipsam consequuntur, ratione quo? Optio culpa, ullam repudiandae quia a totam velit ipsam. Mollitia labore ab explicabo! Sed sapiente doloribus officia odio nobis at illo, eligendi iste maxime quibusdam, vel delectus ex numquam doloremque. Ullam ab dolore amet?',
-            price: 12.56,
+            price: 6655,
             currency: '&#8381',
             cart: false
 
@@ -170,7 +170,7 @@ window.addEventListener('DOMContentLoaded', () => {
                   'img/prodact/prodact.png'],
             title: 'Маленький ручеек Даль журчит по всей стране и обеспечивает',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit error dolorum tenetur ipsam consequuntur, ratione quo? Optio culpa, ullam repudiandae quia a totam velit ipsam. Mollitia labore ab explicabo! Sed sapiente doloribus officia odio nobis at illo, eligendi iste maxime quibusdam, vel delectus ex numquam doloremque. Ullam ab dolore amet?',
-            price: 12.56,
+            price: 552233,
             currency: '&#8381',
             cart: false
 
@@ -182,7 +182,7 @@ window.addEventListener('DOMContentLoaded', () => {
                   'img/prodact/prodact.png'],
             title: 'Маленький ручеек Даль журчит по всей стране и обеспечивает',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit error dolorum tenetur ipsam consequuntur, ratione quo? Optio culpa, ullam repudiandae quia a totam velit ipsam. Mollitia labore ab explicabo! Sed sapiente doloribus officia odio nobis at illo, eligendi iste maxime quibusdam, vel delectus ex numquam doloremque. Ullam ab dolore amet?',
-            price: 12.56,
+            price: 442365,
             currency: '&#8381',
             cart: false
 
@@ -194,7 +194,7 @@ window.addEventListener('DOMContentLoaded', () => {
                   'img/prodact/prodact.png'],
             title: 'Маленький ручеек Даль журчит по всей стране и обеспечивает',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit error dolorum tenetur ipsam consequuntur, ratione quo? Optio culpa, ullam repudiandae quia a totam velit ipsam. Mollitia labore ab explicabo! Sed sapiente doloribus officia odio nobis at illo, eligendi iste maxime quibusdam, vel delectus ex numquam doloremque. Ullam ab dolore amet?',
-            price: 12.56,
+            price: 869584,
             currency: '&#8381',
             cart: false
 
@@ -216,7 +216,7 @@ window.addEventListener('DOMContentLoaded', () => {
                     <a data-productid='${product.id}' href="#" class="link product__link">${product.title}</a>
                 </h5>
                 <div class="product__footer">
-                    <span class="product__price">${product.price.toFixed(2)} <span class="product__currency">${product.currency}</span></span>
+                    <span class="product__price">${String(product.price).replace(/(\d)(?=(\d{3})+([^\d]|$))/g, '$1 ')} <span class="product__currency">${product.currency}</span></span>
                     <span data-productid='${product.id}' class="product__cart">
                     <!-- <img data-productid='${product.id}' src="icons/cart.svg" alt="Добавить в козину"> -->
                     </span>
@@ -257,31 +257,32 @@ window.addEventListener('DOMContentLoaded', () => {
     function productCardOpen(product) {
         const previewTpl = document.createElement('div'),
               controlsTpl = document.createElement('div'),
-              descrTpl = document.createElement('div');
+              descrTpl = document.createElement('div'),
+              container = productCard.querySelector('.product-card__wrapper');
 
-        previewTpl.classList.add('product-card__preview');
-        previewTpl.innerHTML = `<img class="img-responsive product-card__img" src="${product.img[0]}" alt="Фотография товар">`;
+        // previewTpl.classList.add('product-card__preview');
+        // previewTpl.innerHTML = `<img class="img-responsive product-card__img" src="${product.img[0]}" alt="Фотография товар">`;
 
-        controlsTpl.classList.add('product-card__controls');
-        controlsTpl.innerHTML = `
-            <h5 class="title title_h5 product-card__title">${product.title}</h5>
-            <div class="product-card__product-id">Код: <span>${product.id}</span></div>
-            <div class="product-card__price">${product.price.toFixed(2)}</div>
-            <a data-productid='${product.id}' href="#" class="link btn btn__product-card">Купить</a>
-        `;
+        // controlsTpl.classList.add('product-card__controls');
+        // controlsTpl.innerHTML = `
+        //     <h5 class="title title_h5 product-card__title">${product.title}</h5>
+        //     <div class="product-card__product-id">Код: <span>${product.id}</span></div>
+        //     <div class="product-card__price">${String(product.price).replace(/(\d)(?=(\d{3})+([^\d]|$))/g, '$1 ')}</div>
+        //     <a data-productid='${product.id}' href="#" class="link btn btn__product-card">Купить</a>
+        // `;
 
-        descrTpl.classList.add('product-card__descr');
-        descrTpl.innerHTML = product.description;
+        // descrTpl.classList.add('product-card__descr');
+        // descrTpl.innerHTML = product.description;
 
-        productCard.append(previewTpl);
-        productCard.append(controlsTpl);
-        productCard.append(descrTpl);
+        // container.append(previewTpl);
+        // container.append(controlsTpl);
+        // container.append(descrTpl);
 
-        if (productSearchCart(product.id, cartList)) {
-            const btn = productCard.querySelector('.btn__product-card');
-            btn.classList.add('btn__product-card_active');
-            btn.textContent = '';
-        }
+        // if (productSearchCart(product.id, cartList)) {
+        //     const btn = productCard.querySelector('.btn__product-card');
+        //     btn.classList.add('btn__product-card_active');
+        //     btn.textContent = '';
+        // }
 
         productCard.classList.add('product-card_active');
         document.body.style.overflow = 'hidden';
@@ -456,12 +457,12 @@ window.addEventListener('DOMContentLoaded', () => {
         const sum = shoppingCart.querySelectorAll('[data-sum]');
         let total = 0;
         sum.forEach(e => {
-            total += Number(e.textContent);
+            total += Number(e.textContent.split(' ').join(''));
         });
-        cartList.orderTotal = total.toFixed(2);
-        orderSummaryTotal.innerHTML = cartList.orderTotal;
-        navbarCart.innerHTML = cartList.orderTotal;
-        productCardCart.textContent = cartList.orderTotal;
+        cartList.orderTotal = total;
+        orderSummaryTotal.innerHTML = String(cartList.orderTotal).replace(/(\d)(?=(\d{3})+([^\d]|$))/g, '$1 ');
+        navbarCart.innerHTML = String(cartList.orderTotal).replace(/(\d)(?=(\d{3})+([^\d]|$))/g, '$1 ');
+        productCardCart.textContent = String(cartList.orderTotal).replace(/(\d)(?=(\d{3})+([^\d]|$))/g, '$1 ');
     }
 
     // Нажатие кнопки добавить товар в корзину
@@ -481,8 +482,8 @@ window.addEventListener('DOMContentLoaded', () => {
                     <span data-plus="${product.id}" class="shopping-cart__plus"></span>
                 </div>
             </div>
-            <div class="shopping-cart__price">${product.price.toFixed(2)}</div>
-            <div data-sum="${product.id}" class="shopping-cart__sum">${(product.price * product.quantity).toFixed(2)}</div>
+            <div class="shopping-cart__price">${String(product.price).replace(/(\d)(?=(\d{3})+([^\d]|$))/g, '$1 ')}</div>
+            <div data-sum="${product.id}" class="shopping-cart__sum">${String((product.price * product.quantity)).replace(/(\d)(?=(\d{3})+([^\d]|$))/g, '$1 ')}</div>
             <div data-del="${product.id}" class="shopping-cart__del"></div>
         `;
         shoppingCartList.append(tpl);
@@ -625,7 +626,7 @@ window.addEventListener('DOMContentLoaded', () => {
         counters.forEach(e => {
             if (e.dataset.sum == productId) {
                 cartList['id_' + productId].total = cartList['id_' + productId].quantity * cartList['id_' + productId].price;
-                e.innerHTML = cartList['id_' + productId].total.toFixed(2);
+                e.innerHTML = String(cartList['id_' + productId].total).replace(/(\d)(?=(\d{3})+([^\d]|$))/g, '$1 ');
             }
         });
     }
@@ -650,4 +651,34 @@ window.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    // СЛАЙДЕР
+    const showImg = document.querySelector('.product-card__show-img img'),
+          items = document.querySelectorAll('.product-card__wrapper-img img'),
+          selectionImg = document.querySelector('.product-card__selection-img');
+
+    selectionImg.addEventListener('click', e => {
+        const event = e.target;
+
+        if (event.classList.contains('product-card__img')) {
+            items.forEach(item => {
+                if (item == event) {
+                    const src = event.getAttribute('src');
+                    showImg.setAttribute('src', src);
+                }
+            });
+        } else if (event.classList.contains('product-card__wrapper-img')) {
+            const img = event.querySelector('img');
+
+            items.forEach(item => {
+                if (item == img) {
+                    const src = img.getAttribute('src');
+                    showImg.setAttribute('src', src);
+                }
+            });
+        }
+    });
+
+
+
 });
+
