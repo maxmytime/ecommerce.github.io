@@ -654,7 +654,11 @@ window.addEventListener('DOMContentLoaded', () => {
     // СЛАЙДЕР
     const showImg = document.querySelector('.product-card__show-img img'),
           items = document.querySelectorAll('.product-card__wrapper-img img'),
-          selectionImg = document.querySelector('.product-card__selection-img');
+          selectionImg = document.querySelector('.product-card__selection-img'),
+          right = document.querySelector('.product-card__right'),
+          left = document.querySelector('.product-card__left');
+
+    let position = 0;
 
     selectionImg.addEventListener('click', e => {
         const event = e.target;
@@ -678,7 +682,21 @@ window.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    right.addEventListener('click', e => {
+        const slid = items.length - 5;
+        if (position < slid * 60) {
+            position = position + 60;
+            selectionImg.style.transform = `translateX(-${position}px)`;
+        }
+    });
 
+    left.addEventListener('click', e => {
+        const slid = items.length - 5;
+        if (position > 0) {
+            position = position - 60;
+            selectionImg.style.transform = `translateX(-${position}px)`;
+        }
+    });
 
 });
 
